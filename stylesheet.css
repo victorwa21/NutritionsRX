@@ -915,6 +915,55 @@ h1.text {
     color: #555;
     line-height: 1.7;
 }
+
+.policy-insurance-block {
+    max-width: 520px;
+    margin: 0 auto 24px auto;
+}
+
+.policy ul.policy-insurance-list {
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #555;
+}
+
+.policy-insurance-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.policy-insurance-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    flex-shrink: 0;
+    display: block;
+}
+
+.policy-insurance-name {
+    flex: 0 1 auto;
+    text-align: left;
+    min-width: 0;
+}
+
+#accepted-insurances {
+    scroll-margin-top: 100px;
+}
+
+.policy-inline-link {
+    color: #4CAF50;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.policy-inline-link:hover {
+    color: #45a049;
+}
+
 .chinesetable {
     text-align: center;
     width: 100%;
@@ -1606,6 +1655,11 @@ footer .righthead a:hover h1 {
     .policy h5 {
         font-size: 1em;
         margin: 0 0 18px 0;
+    }
+    
+    .policy-insurance-block {
+        max-width: 100%;
+        padding: 0 5px;
     }
     
     .aboutimage {
