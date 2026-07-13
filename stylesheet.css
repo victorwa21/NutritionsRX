@@ -480,6 +480,20 @@ textarea.form-control {
     text-align: left;
 }
 
+.sms-consent-title {
+    margin: 0 0 6px 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+.sms-consent-disclosure {
+    margin: 0 0 12px 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #555;
+}
+
 .sms-consent-label {
     display: flex;
     align-items: flex-start;
@@ -494,6 +508,7 @@ textarea.form-control {
     flex-shrink: 0;
 }
 
+.sms-consent-disclosure a,
 .sms-consent-label a {
     color: #4CAF50;
     text-decoration: underline;
